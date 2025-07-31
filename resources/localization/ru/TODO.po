@@ -4,36 +4,36 @@
 #: src/slic3r/GUI/PresetHints.cpp:135
 #, possible-boost-format
 msgid " and will gradually speed-up to the above speeds over %1% layers"
-msgstr ""
+msgstr " и будет п`остепенно ускоряться - до вышеуказанных скоростей на последующих %1% слоях."
 
 
 #: src/slic3r/GUI/Preferences.cpp:1125
 msgid ""
 " Tab layout: all windows are in the application, all are selectable via a "
 "tab."
-msgstr ""
+msgstr "Расположение вкладок: все окна находятся в приложении и могут быть выбраны как вкладка."
 
 
 #: src/slic3r/GUI/Preferences.cpp:1123
 msgid "!! Can be unstable in some os distribution !!"
-msgstr ""
+msgstr "!! Может быть нестабильно в некоторых дистрибутивах ОС !!"
 
 
 #: src/libslic3r/PrintConfig.cpp:5227
 msgid "$ per hour"
-msgstr ""
+msgstr "$ в час"
 
 
 #: src/slic3r/GUI/MainFrame.cpp:247
 #, possible-boost-format
 msgid "%1% is closing"
-msgstr ""
+msgstr "%1% закрывается"
 
 
 #: src/slic3r/GUI/GUI_App.cpp:1390
 #, possible-boost-format
 msgid "%1% started after a crash"
-msgstr ""
+msgstr "%1% запущен после сбоя"
 
 
 #: src/slic3r/GUI/UnsavedChangesDialog.cpp:910
@@ -42,7 +42,7 @@ msgstr ""
 # 11   changes: PrusaSlicer will remember your action.
 #  translation: PrusaSlicer запомнит ваш выбор.
 msgid "%1% will remember your action."
-msgstr ""
+msgstr "%1% запомнит выбранное вами действие."
 
 
 #: src/slic3r/GUI/GUI_App.cpp:3341 src/slic3r/GUI/Plater.cpp:1720
@@ -51,20 +51,20 @@ msgstr ""
 # 11   changes: PrusaSlicer will remember your choice.
 #  translation: PrusaSlicer запомнит ваш выбор.
 msgid "%1% will remember your choice."
-msgstr ""
+msgstr "%1% запомнит ваш выбор."
 
 
 #: src/slic3r/GUI/GUI_App.cpp:3345 src/slic3r/GUI/Plater.cpp:1726
 #: src/slic3r/GUI/UnsavedChangesDialog.cpp:913
 #, possible-boost-format
 msgid "%1%: Don't ask me again"
-msgstr ""
+msgstr "%1%: Не спрашивать меня снова"
 
 
 #: src/slic3r/GUI/GUI_App.cpp:3334
 #, possible-boost-format
 msgid "%1%: Open hyperlink"
-msgstr ""
+msgstr "%1%: Открыть ссылку"
 
 
 #: src/slic3r/GUI/GUI_App.cpp:1391
@@ -79,6 +79,14 @@ msgid ""
 "To avoid this problem, consider disabling \"%4%\" in \"Preferences\". "
 "Otherwise, the application will most likely crash again next time."
 msgstr ""
+"%5% в прошлый раз произошел сбой при попытке установить положение окна.\n"
+"Приносим извинения за доставленные неудобства, к сожалению, это происходит при определенных настройках "
+"с несколькими мониторами.\n"
+"Более точная причина сбоя: \"%1%\".\n"
+"Для получения дополнительной информации смотрите наш раздел отслеживания проблем на GitHub: \"%2%\" и \"%3%\"\n"
+"\n"
+"Чтобы избежать этой проблемы, рассмотрите возможность отключения \"%4%\" в \"Настройки\". "
+"Иначе, в приложении скорее всего произойдёт очередной сбой в следующий раз."
 
 
 #: src/slic3r/GUI/PresetHints.cpp:459 src/slic3r/GUI/PresetHints.cpp:464
@@ -87,7 +95,7 @@ msgstr ""
 # 7    changes: %d lines: %.2f mm
 #  translation: %d линий периметра - %.2f мм
 msgid "%d perimeter: %.2f mm"
-msgstr ""
+msgstr "%d линий периметра - %.2f мм"
 
 
 #: src/slic3r/GUI/PresetHints.cpp:388
@@ -96,7 +104,7 @@ msgstr ""
 # 4    changes: flow rate is maximized
 #  translation: скорость потока максимальна
 msgid "%s flow rate is maximized "
-msgstr ""
+msgstr "%s скорость потока максимальна"
 
 
 #: src/slic3r/GUI/GUI_Init.cpp:83 src/slic3r/GUI/GUI_Init.cpp:86
@@ -105,7 +113,7 @@ msgstr ""
 # 10   changes: PrusaSlicer GUI initialization failed
 #  translation: Ошибка инициализации графического интерфейса PrusaSlicer
 msgid "%s GUI initialization failed"
-msgstr ""
+msgstr "%s ошибка инициализации графического интерфейса"
 
 
 #: src/slic3r/GUI/GUI_App.cpp:720
@@ -119,6 +127,10 @@ msgid ""
 "\n"
 "The application will now terminate."
 msgstr ""
+"%s столкнулся с ошибкой локализации. Пожалуйста, сообщите команде %s, о том, какой "
+"язык был активен и в какой ситуации возникла эта проблема. Спасибо.\n"
+"\n"
+"Далее работа приложения будет прекращена."
 
 
 #: src/slic3r/GUI/UpdateDialogs.cpp:95
@@ -131,12 +143,15 @@ msgid ""
 "Configuration Wizard may not offer the latest printers, filaments and SLA "
 "materials to be installed. "
 msgstr ""
+"%s не использует последнюю доступную конфигурацию.\n"
+"Если хотите, мастер настройки может не предлагать установку новейших принтеров, пластиковых нитей и SLA материалов "
+", которые необходимо установить. "
 
 
 #: src/slic3r/GUI/MainFrame.cpp:1559
 #, possible-c-format, possible-boost-format
 msgid "%s Releases"
-msgstr ""
+msgstr "Релизы %s"
 
 
 #: src/slic3r/GUI/OpenGLManager.cpp:258
@@ -146,7 +161,8 @@ msgstr ""
 msgid ""
 "%s requires OpenGL 2.0 capable graphics driver to run correctly, \n"
 "while OpenGL version %1%, render %2%, vendor %3% was detected."
-msgstr ""
+msgstr "Для корректной работы %s требуется графический драйвер с поддержкой OpenGL 2.0, \n"
+"при этом была обнаружена версия OpenGL %1%, рендеринг %2%, производитель %3%.""
 
 
 #: src/slic3r/GUI/ConfigSnapshotDialog.cpp:60
@@ -159,7 +175,7 @@ msgstr ""
 # 4    changes: %s error
 #  translation: Ошибка %s
 msgid "%s version"
-msgstr ""
+msgstr "версия %s"
 
 
 #: src/slic3r/GUI/MainFrame.cpp:1563
@@ -168,13 +184,13 @@ msgstr ""
 # 2    changes: %s &Website
 #  translation: Сайт %s
 msgid "%s website"
-msgstr ""
+msgstr "Вебсайт %s"
 
 
 #: src/slic3r/GUI/MainFrame.cpp:1561
 #, possible-c-format, possible-boost-format
 msgid "%s wiki"
-msgstr ""
+msgstr "Вики %s"
 
 
 #: src/slic3r/GUI/ConfigWizard.cpp:1299
@@ -189,6 +205,11 @@ msgid ""
 "regular 3D printing. The other two offer progressively more sophisticated "
 "fine-tuning, they are suitable for advanced and expert users, respectively."
 msgstr ""
+"Пользовательский интерфейс %s представлен в трёх вариантах:\n"
+"Простой, Расширенный, Продвинутый.\nЭ
+"В Простом режиме отображаются только наиболее часто используемые параметры"
+оыбчной 3D-печати. Два других предлагают более тонкую расширенную настройку,"
+"они подходят для продвинутых и опытных пользователей соответственно."
 
 
 #: src/slic3r/GUI/MainFrame.cpp:1997
@@ -196,7 +217,7 @@ msgstr ""
 # 3    changes: General
 #  translation: Общие
 msgid "&Generate"
-msgstr ""
+msgstr "&Генерировать"
 
 
 #: src/libslic3r/PrintConfig.cpp:3701
